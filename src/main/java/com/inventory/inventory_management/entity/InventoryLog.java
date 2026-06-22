@@ -20,7 +20,7 @@ public class InventoryLog {
 
     @ManyToOne
     @JoinColumn(name = "product_id")
-    private Products product;
+    private Product product;
 
     @Column(nullable = false)
     private String type;

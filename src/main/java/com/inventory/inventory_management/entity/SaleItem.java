@@ -8,26 +8,26 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "purchase_items")
+@Table(name = "sale_items")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class PurchaseItems {
+public class SaleItem {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @ManyToOne
-    @JoinColumn(name = "purchase_id")
-    private Purchases purchase;
+    @JoinColumn(name = "sale_id")
+    private Sale sale;
 
     @ManyToOne
     @JoinColumn(name = "product_id")
-    private Products product;
+    private Product product;
 
     private Integer quantity;
 
-    @Column(name = "unit_cost", nullable = false)
-    private BigDecimal unitCost;
+    @Column(name = "selling_price", nullable = false)
+    private BigDecimal sellingPrice;
 }

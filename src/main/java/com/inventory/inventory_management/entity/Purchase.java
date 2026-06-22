@@ -1,6 +1,7 @@
 package com.inventory.inventory_management.entity;
 
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -8,26 +9,23 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "sale_items")
+@Table(name = "purchases")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class SaleItems {
+public class Purchase {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @ManyToOne
-    @JoinColumn(name = "sale_id")
-    private Sales sale;
+    @JoinColumn(name = "supplier_id")
+    private Supplier supplier;
 
-    @ManyToOne
-    @JoinColumn(name = "product_id")
-    private Products product;
+    @Column(name = "purchase_date", nullable = false)
+    private LocalDateTime purchaseDate;
 
-    private Integer quantity;
-
-    @Column(name = "selling_price", nullable = false)
-    private BigDecimal sellingPrice;
+    @Column(name = "total_amount", nullable = false)
+    private BigDecimal totalAmount;
 }
