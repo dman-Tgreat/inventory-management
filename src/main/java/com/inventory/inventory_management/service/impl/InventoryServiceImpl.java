@@ -13,7 +13,7 @@ import com.inventory.inventory_management.entity.Product;
 import com.inventory.inventory_management.mapper.ProductMapper;
 import com.inventory.inventory_management.repository.InventoryLogRepository;
 import com.inventory.inventory_management.repository.ProductRepository;
-import com.inventory.inventory_management.service.InventoryService;
+import com.inventory.inventory_management.service.Interface.InventoryService;
 
 import lombok.RequiredArgsConstructor;
 

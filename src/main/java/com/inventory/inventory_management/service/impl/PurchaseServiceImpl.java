@@ -24,7 +24,7 @@ import com.inventory.inventory_management.repository.ProductRepository;
 import com.inventory.inventory_management.repository.PurchaseItemRepository;
 import com.inventory.inventory_management.repository.PurchaseRepository;
 import com.inventory.inventory_management.repository.SupplierRepository;
-import com.inventory.inventory_management.service.PurchaseService;
+import com.inventory.inventory_management.service.Interface.PurchaseService;
 
 import lombok.RequiredArgsConstructor;
 

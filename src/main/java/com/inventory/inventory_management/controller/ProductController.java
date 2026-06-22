@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.inventory.inventory_management.dto.ProductRequest;
 import com.inventory.inventory_management.dto.ProductResponse;
-import com.inventory.inventory_management.service.ProductService;
+import com.inventory.inventory_management.service.Interface.ProductService;
 import com.inventory.inventory_management.service.impl.AccessControlService;
 
 import jakarta.validation.Valid;

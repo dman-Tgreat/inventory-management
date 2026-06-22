@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.inventory.inventory_management.dto.InventoryLogResponse;
 import com.inventory.inventory_management.dto.InventorySummaryResponse;
 import com.inventory.inventory_management.dto.ProductResponse;
-import com.inventory.inventory_management.service.InventoryService;
+import com.inventory.inventory_management.service.Interface.InventoryService;
 import com.inventory.inventory_management.service.impl.AccessControlService;
 
 import lombok.RequiredArgsConstructor;

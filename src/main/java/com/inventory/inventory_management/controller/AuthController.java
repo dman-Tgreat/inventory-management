@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.inventory.inventory_management.dto.AuthResponse;
 import com.inventory.inventory_management.dto.LoginRequest;
 import com.inventory.inventory_management.dto.RegisterRequest;
-import com.inventory.inventory_management.service.AuthService;
+import com.inventory.inventory_management.service.Interface.AuthService;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

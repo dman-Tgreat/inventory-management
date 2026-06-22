@@ -1,4 +1,4 @@
-package com.inventory.inventory_management.service;
+package com.inventory.inventory_management.service.Interface;
 
 import java.util.List;
 

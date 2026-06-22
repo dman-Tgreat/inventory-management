@@ -8,7 +8,7 @@ import com.inventory.inventory_management.dto.CategoryRequest;
 import com.inventory.inventory_management.dto.CategoryResponse;
 import com.inventory.inventory_management.entity.Category;
 import com.inventory.inventory_management.repository.CategoryRepository;
-import com.inventory.inventory_management.service.CategoryService;
+import com.inventory.inventory_management.service.Interface.CategoryService;
 
 import lombok.RequiredArgsConstructor;
 

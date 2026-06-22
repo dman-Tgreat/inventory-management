@@ -8,7 +8,7 @@ import com.inventory.inventory_management.dto.SupplierRequest;
 import com.inventory.inventory_management.dto.SupplierResponse;
 import com.inventory.inventory_management.entity.Supplier;
 import com.inventory.inventory_management.repository.SupplierRepository;
-import com.inventory.inventory_management.service.SupplierService;
+import com.inventory.inventory_management.service.Interface.SupplierService;
 
 import lombok.RequiredArgsConstructor;
 

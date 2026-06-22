@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.inventory.inventory_management.dto.DashboardResponse;
-import com.inventory.inventory_management.service.DashboardService;
+import com.inventory.inventory_management.service.Interface.DashboardService;
 import com.inventory.inventory_management.service.impl.AccessControlService;
 
 import lombok.RequiredArgsConstructor;

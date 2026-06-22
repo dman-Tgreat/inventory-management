@@ -18,7 +18,7 @@ import com.inventory.inventory_management.mapper.ProductMapper;
 import com.inventory.inventory_management.repository.CategoryRepository;
 import com.inventory.inventory_management.repository.ProductRepository;
 import com.inventory.inventory_management.repository.SupplierRepository;
-import com.inventory.inventory_management.service.ProductService;
+import com.inventory.inventory_management.service.Interface.ProductService;
 
 import lombok.RequiredArgsConstructor;
 

@@ -24,7 +24,7 @@ import com.inventory.inventory_management.repository.ProductRepository;
 import com.inventory.inventory_management.repository.SaleItemRepository;
 import com.inventory.inventory_management.repository.SaleRepository;
 import com.inventory.inventory_management.repository.UserRepository;
-import com.inventory.inventory_management.service.SalesService;
+import com.inventory.inventory_management.service.Interface.SalesService;
 
 import lombok.RequiredArgsConstructor;
 

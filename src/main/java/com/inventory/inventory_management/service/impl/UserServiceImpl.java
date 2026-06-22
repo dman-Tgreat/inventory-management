@@ -8,7 +8,7 @@ import com.inventory.inventory_management.dto.UserResponse;
 import com.inventory.inventory_management.entity.User;
 import com.inventory.inventory_management.exception.ResourceNotFoundException;
 import com.inventory.inventory_management.repository.UserRepository;
-import com.inventory.inventory_management.service.UserService;
+import com.inventory.inventory_management.service.Interface.UserService;
 
 import lombok.RequiredArgsConstructor;
 

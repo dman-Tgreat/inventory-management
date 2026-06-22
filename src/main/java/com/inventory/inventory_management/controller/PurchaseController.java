@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.inventory.inventory_management.dto.PurchaseRequest;
 import com.inventory.inventory_management.dto.PurchaseResponse;
-import com.inventory.inventory_management.service.PurchaseService;
+import com.inventory.inventory_management.service.Interface.PurchaseService;
 import com.inventory.inventory_management.service.impl.AccessControlService;
 
 import jakarta.validation.Valid;

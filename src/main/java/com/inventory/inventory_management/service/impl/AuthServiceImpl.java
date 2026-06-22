@@ -11,7 +11,7 @@ import com.inventory.inventory_management.exception.BadRequestException;
 import com.inventory.inventory_management.exception.ResourceNotFoundException;
 import com.inventory.inventory_management.repository.RoleRepository;
 import com.inventory.inventory_management.repository.UserRepository;
-import com.inventory.inventory_management.service.AuthService;
+import com.inventory.inventory_management.service.Interface.AuthService;
 
 import lombok.RequiredArgsConstructor;
 
